@@ -1,0 +1,32 @@
+{
+  "root": "packages/codility",
+  "sourceRoot": "packages/codility/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/codility",
+        "main": "packages/codility/src/index.ts",
+        "tsConfig": "packages/codility/tsconfig.lib.json",
+        "assets": ["packages/codility/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/codility/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/codility"],
+      "options": {
+        "jestConfig": "packages/codility/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
