@@ -14,17 +14,15 @@ function getScoreForRound(arr: number[]) {
   if (scoreForRound < 10) {
     return scoreForRound;
   }
-  // spare
+  // either normal round spare
+  // or the last round was a strike
   if (arr[0] !== 10 || arr.length === 3) {
     return scoreForRound + arr[2];
   }
-  // strike
+  // normal round strike where next one was not a strike
   if (arr[2] !== 10) {
     return scoreForRound + arr[2] + arr[3];
   }
-  // next one is also a strike
-  if (arr[4]) {
-    return scoreForRound + arr[2] + arr[4];
-  }
-  return scoreForRound + arr[2] + arr[3];
+  // normal round strike where next one is also a strike
+  return scoreForRound + arr[2] + arr[4];
 }
