@@ -10,7 +10,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 1. Iterations:
 
-- [x] **BinaryGap** `Easy`
+- [x] **[BinaryGap](packages/codility/src/lib/binary-gap/readme.md)** `Easy`
       _(Find longest sequence of zeros in binary representation of an integer)_
 
 2. Arrays:
