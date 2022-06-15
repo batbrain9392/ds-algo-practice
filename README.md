@@ -8,19 +8,19 @@ Run this project by running the tests: `npx nx test codility --watch`
 
 Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.com/programmers/lessons/)
 
-1. Iterations:
+### Iterations
 
 - [x] **[BinaryGap](packages/codility/src/lib/binary-gap/readme.md)** `Easy`
       _(Find longest sequence of zeros in binary representation of an integer)_
 
-2. Arrays:
+### Arrays
 
 - [x] **[CyclicRotation](<(packages/codility/src/lib/cyclic-rotation/readme.md)>)** `Easy`
       _(Rotate an array to the right by a given number of steps)_
 - [x] **[OddOccurrencesInArray](<(packages/codility/src/lib/odd-occurrences-in-array/readme.md)>)** `Easy`
       _(Find value that occurs in odd number of elements)_
 
-3. Time Complexity:
+### Time Complexity
 
 - [x] **[FrogJmp](<(packages/codility/src/lib/frog-jump/readme.md)>)** `Easy`
       _(Count minimal number of jumps from position X to Y)_
@@ -29,7 +29,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [x] **[TapeEquilibrium](<(packages/codility/src/lib/tape-equilibrium/readme.md)>)** `Easy`
       _(Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|)_
 
-4. Counting Elements:
+### Counting Elements
 
 - [ ] **FrogRiverOne** `Easy`
       _(Find the earliest time when a frog can jump to the other side of a river)_
@@ -40,7 +40,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **MissingInteger** `Medium`
       _(Find the smallest positive integer that does not occur in a given sequence)_
 
-5. Prefix Sums
+### Prefix Sums
 
 - [ ] **PassingCars** `Easy`
       _(Count the number of passing cars on the road)_
@@ -51,7 +51,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **MinAvgTwoSlice** `Medium`
       _(Find the minimal average of any slice containing at least two elements)_
 
-6. Sorting
+### Sorting
 
 - [ ] **Distinct** `Easy`
       _(Compute number of distinct values in an array)_
@@ -62,7 +62,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **NumberOfDiscIntersections** `Medium`
       _(Compute the number of intersections in a sequence of discs)_
 
-7. Stacks and Queues
+### Stacks and Queues
 
 - [ ] **Brackets** `Easy`
       _(Determine whether a given string of parentheses (multiple types) is properly nested)_
@@ -73,14 +73,14 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **StoneWall** `Easy`
       _(Cover "Manhattan skyline" using the minimum number of rectangles)_
 
-8. Leader
+### Leader
 
 - [ ] **Dominator** `Easy`
       _(Find an index of an array such that its value occurs at more than half of indices in the array)_
 - [ ] **EquiLeader** `Easy`
       _(Find the index S such that the leaders of the sequences A[0], A[1], ..., A[S] and A[S + 1], A[S + 2], ..., A[N - 1] are the same)_
 
-9. Maximum slice problem
+### Maximum slice problem
 
 - [ ] **MaxProfit** `Easy`
       _(Given a log of stock prices compute the maximum possible earning)_
@@ -89,7 +89,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **MaxDoubleSliceSum** `Medium`
       _(Find the maximal sum of any double slice)_
 
-10. Prime and composite numbers
+### Prime and composite numbers
 
 - [ ] **CountFactors** `Easy`
       _(Count factors of given number n)_
@@ -100,35 +100,35 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **Peaks** `Medium`
       _(Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1])_
 
-11. Sieve of Eratosthenes
+### Sieve of Eratosthenes
 
 - [ ] **CountNonDivisible** `Medium`
       _(Calculate the number of elements of an array that are not divisors of each element)_
 - [ ] **CountSemiprimes** `Medium`
       _(Count the semiprime numbers in the given range [a..b])_
 
-12. Euclidean algorithm
+### Euclidean algorithm
 
 - [ ] **ChocolatesByNumbers** `Easy`
       _(There are N chocolates in a circle. Count the number of chocolates you will eat)_
 - [ ] **CommonPrimeDivisors** `Medium`
       _(Check whether two numbers have the same prime divisors)_
 
-13. Fibonacci numbers
+### Fibonacci numbers
 
 - [ ] **FibFrog** `Medium`
       _(Count the minimum number of jumps required for a frog to get to the other side of a river)_
 - [ ] **Ladder** `Medium`
       _(Count the number of different ways of climbing to the top of a ladder)_
 
-14. Binary search algorithm
+### Binary search algorithm
 
 - [ ] **MinMaxDivision** `Medium`
       _(Divide array A into K blocks and minimize the largest sum of any block)_
 - [ ] **NailingPlanks** `Medium`
       _(Count the minimum number of nails that allow a series of planks to be nailed)_
 
-15. Caterpillar method
+### Caterpillar method
 
 - [ ] **AbsDistinct** `Easy`
       _(Compute number of distinct absolute values of sorted array elements)_
@@ -139,14 +139,14 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 - [ ] **MinAbsSumOfTwo** `Medium`
       _(Find the minimal absolute value of a sum of two elements)_
 
-16. Greedy algorithms
+### Greedy algorithms
 
 - [ ] **MaxNonoverlappingSegments** `Easy`
       _(Find a maximal set of non-overlapping segments)_
 - [ ] **TieRopes** `Easy`
       _(Tie adjacent ropes to achieve the maximum number of ropes of length >= K)_
 
-17. Dynamic programming
+### Dynamic programming
 
 - [ ] **NumberSolitaire** `Medium`
       _(In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6)_
