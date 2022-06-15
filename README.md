@@ -10,151 +10,151 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 1. Iterations:
 
-- [x] <b>BinaryGap</b> `Easy`
-      <small>(Find longest sequence of zeros in binary representation of an integer)</small>
+- [x] **BinaryGap** `Easy`
+      _(Find longest sequence of zeros in binary representation of an integer)_
 
 2. Arrays:
 
-- [x] <b>CyclicRotation</b> `Easy`
-      <small>(Rotate an array to the right by a given number of steps)</small>
-- [x] <b>OddOccurrencesInArray</b> `Easy`
-      <small>(Find value that occurs in odd number of elements)</small>
+- [x] **CyclicRotation** `Easy`
+      _(Rotate an array to the right by a given number of steps)_
+- [x] **OddOccurrencesInArray** `Easy`
+      _(Find value that occurs in odd number of elements)_
 
 3. Time Complexity:
 
-- [x] <b>FrogJmp</b> `Easy`
-      <small>(Count minimal number of jumps from position X to Y)</small>
-- [x] <b>PermMissingElem</b> `Easy`
-      <small>(Find the missing element in a given permutation)</small>
-- [x] <b>TapeEquilibrium</b> `Easy`
-      <small>(Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|)</small>
+- [x] **FrogJmp** `Easy`
+      _(Count minimal number of jumps from position X to Y)_
+- [x] **PermMissingElem** `Easy`
+      _(Find the missing element in a given permutation)_
+- [x] **TapeEquilibrium** `Easy`
+      _(Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|)_
 
 4. Counting Elements:
 
-- [x] <b>FrogRiverOne</b> `Easy`
-      <small>(Find the earliest time when a frog can jump to the other side of a river)</small>
-- [x] <b>PermCheck</b> `Easy`
-      <small>(Check whether array A is a permutation)</small>
-- [ ] <b>MaxCounters</b> `Medium`
-      <small>(Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum)</small>
-- [ ] <b>MissingInteger</b> `Medium`
-      <small>(Find the smallest positive integer that does not occur in a given sequence)</small>
+- [x] **FrogRiverOne** `Easy`
+      _(Find the earliest time when a frog can jump to the other side of a river)_
+- [x] **PermCheck** `Easy`
+      _(Check whether array A is a permutation)_
+- [ ] **MaxCounters** `Medium`
+      _(Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum)_
+- [ ] **MissingInteger** `Medium`
+      _(Find the smallest positive integer that does not occur in a given sequence)_
 
 5. Prefix Sums
 
-- [ ] <b>PassingCars</b> `Easy`
-      <small>(Count the number of passing cars on the road)</small>
-- [ ] <b>CountDiv</b> `Medium`
-      <small>(Compute number of integers divisible by k in range [a..b])</small>
-- [ ] <b>GenomicRangeQuery</b> `Medium`
-      <small>(Find the minimal nucleotide from a range of sequence DNA)</small>
-- [ ] <b>MinAvgTwoSlice</b> `Medium`
-      <small>(Find the minimal average of any slice containing at least two elements)</small>
+- [ ] **PassingCars** `Easy`
+      _(Count the number of passing cars on the road)_
+- [ ] **CountDiv** `Medium`
+      _(Compute number of integers divisible by k in range [a..b])_
+- [ ] **GenomicRangeQuery** `Medium`
+      _(Find the minimal nucleotide from a range of sequence DNA)_
+- [ ] **MinAvgTwoSlice** `Medium`
+      _(Find the minimal average of any slice containing at least two elements)_
 
 6. Sorting
 
-- [ ] <b>Distinct</b> `Easy`
-      <small>(Compute number of distinct values in an array)</small>
-- [ ] <b>MaxProductOfThree</b> `Easy`
-      <small>(Maximize A[P] _ A[Q] _ A[R] for any triplet (P, Q, R))</small>
-- [ ] <b>Triangle</b> `Easy`
-      <small>(Determine whether a triangle can be built from a given set of edges)</small>
-- [ ] <b>NumberOfDiscIntersections</b> `Medium`
-      <small>(Compute the number of intersections in a sequence of discs)</small>
+- [ ] **Distinct** `Easy`
+      _(Compute number of distinct values in an array)_
+- [ ] **MaxProductOfThree** `Easy`
+      _(Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R))_
+- [ ] **Triangle** `Easy`
+      _(Determine whether a triangle can be built from a given set of edges)_
+- [ ] **NumberOfDiscIntersections** `Medium`
+      _(Compute the number of intersections in a sequence of discs)_
 
 7. Stacks and Queues
 
-- [ ] <b>Brackets</b> `Easy`
-      <small>(Determine whether a given string of parentheses (multiple types) is properly nested)</small>
-- [ ] <b>Fish</b> `Easy`
-      <small>(N voracious fish are moving along a river. Calculate how many fish are alive)</small>
-- [ ] <b>Nesting</b> `Easy`
-      <small>(Determine whether a given string of parentheses (single type) is properly nested)</small>
-- [ ] <b>StoneWall</b> `Easy`
-      <small>(Cover "Manhattan skyline" using the minimum number of rectangles)</small>
+- [ ] **Brackets** `Easy`
+      _(Determine whether a given string of parentheses (multiple types) is properly nested)_
+- [ ] **Fish** `Easy`
+      _(N voracious fish are moving along a river. Calculate how many fish are alive)_
+- [ ] **Nesting** `Easy`
+      _(Determine whether a given string of parentheses (single type) is properly nested)_
+- [ ] **StoneWall** `Easy`
+      _(Cover "Manhattan skyline" using the minimum number of rectangles)_
 
 8. Leader
 
-- [ ] <b>Dominator</b> `Easy`
-      <small>(Find an index of an array such that its value occurs at more than half of indices in the array)</small>
-- [ ] <b>EquiLeader</b> `Easy`
-      <small>(Find the index S such that the leaders of the sequences A[0], A[1], ..., A[S] and A[S + 1], A[S + 2], ..., A[N - 1] are the same)</small>
+- [ ] **Dominator** `Easy`
+      _(Find an index of an array such that its value occurs at more than half of indices in the array)_
+- [ ] **EquiLeader** `Easy`
+      _(Find the index S such that the leaders of the sequences A[0], A[1], ..., A[S] and A[S + 1], A[S + 2], ..., A[N - 1] are the same)_
 
 9. Maximum slice problem
 
-- [ ] <b>MaxProfit</b> `Easy`
-      <small>(Given a log of stock prices compute the maximum possible earning)</small>
-- [ ] <b>MaxSliceSum</b> `Easy`
-      <small>(Find a maximum sum of a compact subsequence of array elements)</small>
-- [ ] <b>MaxDoubleSliceSum</b> `Medium`
-      <small>(Find the maximal sum of any double slice)</small>
+- [ ] **MaxProfit** `Easy`
+      _(Given a log of stock prices compute the maximum possible earning)_
+- [ ] **MaxSliceSum** `Easy`
+      _(Find a maximum sum of a compact subsequence of array elements)_
+- [ ] **MaxDoubleSliceSum** `Medium`
+      _(Find the maximal sum of any double slice)_
 
 10. Prime and composite numbers
 
-- [ ] <b>CountFactors</b> `Easy`
-      <small>(Count factors of given number n)</small>
-- [ ] <b>MinPerimeterRectangle</b> `Easy`
-      <small>(Find the minimal perimeter of any rectangle whose area equals N)</small>
-- [ ] <b>Flags</b> `Medium`
-      <small>(Find the maximum number of flags that can be set on mountain peaks)</small>
-- [ ] <b>Peaks</b> `Medium`
-      <small>(Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1])</small>
+- [ ] **CountFactors** `Easy`
+      _(Count factors of given number n)_
+- [ ] **MinPerimeterRectangle** `Easy`
+      _(Find the minimal perimeter of any rectangle whose area equals N)_
+- [ ] **Flags** `Medium`
+      _(Find the maximum number of flags that can be set on mountain peaks)_
+- [ ] **Peaks** `Medium`
+      _(Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1])_
 
 11. Sieve of Eratosthenes
 
-- [ ] <b>CountNonDivisible</b> `Medium`
-      <small>(Calculate the number of elements of an array that are not divisors of each element)</small>
-- [ ] <b>CountSemiprimes</b> `Medium`
-      <small>(Count the semiprime numbers in the given range [a..b])</small>
+- [ ] **CountNonDivisible** `Medium`
+      _(Calculate the number of elements of an array that are not divisors of each element)_
+- [ ] **CountSemiprimes** `Medium`
+      _(Count the semiprime numbers in the given range [a..b])_
 
 12. Euclidean algorithm
 
-- [ ] <b>ChocolatesByNumbers</b> `Easy`
-      <small>(There are N chocolates in a circle. Count the number of chocolates you will eat)</small>
-- [ ] <b>CommonPrimeDivisors</b> `Medium`
-      <small>(Check whether two numbers have the same prime divisors)</small>
+- [ ] **ChocolatesByNumbers** `Easy`
+      _(There are N chocolates in a circle. Count the number of chocolates you will eat)_
+- [ ] **CommonPrimeDivisors** `Medium`
+      _(Check whether two numbers have the same prime divisors)_
 
 13. Fibonacci numbers
 
-- [ ] <b>FibFrog</b> `Medium`
-      <small>(Count the minimum number of jumps required for a frog to get to the other side of a river)</small>
-- [ ] <b>Ladder</b> `Medium`
-      <small>(Count the number of different ways of climbing to the top of a ladder)</small>
+- [ ] **FibFrog** `Medium`
+      _(Count the minimum number of jumps required for a frog to get to the other side of a river)_
+- [ ] **Ladder** `Medium`
+      _(Count the number of different ways of climbing to the top of a ladder)_
 
 14. Binary search algorithm
 
-- [ ] <b>MinMaxDivision</b> `Medium`
-      <small>(Divide array A into K blocks and minimize the largest sum of any block)</small>
-- [ ] <b>NailingPlanks</b> `Medium`
-      <small>(Count the minimum number of nails that allow a series of planks to be nailed)</small>
+- [ ] **MinMaxDivision** `Medium`
+      _(Divide array A into K blocks and minimize the largest sum of any block)_
+- [ ] **NailingPlanks** `Medium`
+      _(Count the minimum number of nails that allow a series of planks to be nailed)_
 
 15. Caterpillar method
 
-- [ ] <b>AbsDistinct</b> `Easy`
-      <small>(Compute number of distinct absolute values of sorted array elements)</small>
-- [ ] <b>CountDistinctSlices</b> `Easy`
-      <small>(Count the number of distinct slices (containing only unique numbers))</small>
-- [ ] <b>CountTriangles</b> `Easy`
-      <small>(Count the number of triangles that can be built from a given set of edges)</small>
-- [ ] <b>MinAbsSumOfTwo</b> `Medium`
-      <small>(Find the minimal absolute value of a sum of two elements)</small>
+- [ ] **AbsDistinct** `Easy`
+      _(Compute number of distinct absolute values of sorted array elements)_
+- [ ] **CountDistinctSlices** `Easy`
+      _(Count the number of distinct slices (containing only unique numbers))_
+- [ ] **CountTriangles** `Easy`
+      _(Count the number of triangles that can be built from a given set of edges)_
+- [ ] **MinAbsSumOfTwo** `Medium`
+      _(Find the minimal absolute value of a sum of two elements)_
 
 16. Greedy algorithms
 
-- [ ] <b>MaxNonoverlappingSegments</b> `Easy`
-      <small>(Find a maximal set of non-overlapping segments)</small>
-- [ ] <b>TieRopes</b> `Easy`
-      <small>(Tie adjacent ropes to achieve the maximum number of ropes of length >= K)</small>
+- [ ] **MaxNonoverlappingSegments** `Easy`
+      _(Find a maximal set of non-overlapping segments)_
+- [ ] **TieRopes** `Easy`
+      _(Tie adjacent ropes to achieve the maximum number of ropes of length >= K)_
 
 17. Dynamic programming
 
-- [ ] <b>NumberSolitaire</b> `Medium`
-      <small>(In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6)</small>
-- [ ] <b>MinAbsSum</b> `Hard`
-      <small>(Given array of integers, find the lowest absolute sum of elements)</small>
+- [ ] **NumberSolitaire** `Medium`
+      _(In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6)_
+- [ ] **MinAbsSum** `Hard`
+      _(Given array of integers, find the lowest absolute sum of elements)_
 
 ## External problems
 
-- [x] <b>MergeSort</b>
-- [x] <b>QuickSort</b>
-- [x] <b>BowlingGameScorer</b>
+- [x] **MergeSort**
+- [x] **QuickSort**
+- [x] **BowlingGameScorer**
