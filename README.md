@@ -1,9 +1,8 @@
 # DsAlgoPractice
 
-This project was generated using [Nx](https://nx.dev).
-Run this project by running the tests:
+Thi project helped me crack interviews in the big companies. It contains solutions to [Codility](https://app.codility.com/programmers/lessons/) problems with a `100% efficiency` score. Completed ones have been checked below. This project was generated using [Nx](https://nx.dev).
 
-`npx nx test codility --watch`
+Run this project by running the tests: `npx nx test codility --watch`
 
 ## Codility Solutions
 
