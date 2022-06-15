@@ -15,18 +15,18 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ### Arrays
 
-- [x] **[CyclicRotation](<(packages/codility/src/lib/cyclic-rotation/readme.md)>)** `Easy`
+- [x] **[CyclicRotation](packages/codility/src/lib/cyclic-rotation/readme.md)** `Easy`
       _(Rotate an array to the right by a given number of steps)_
-- [x] **[OddOccurrencesInArray](<(packages/codility/src/lib/odd-occurrences-in-array/readme.md)>)** `Easy`
+- [x] **[OddOccurrencesInArray](packages/codility/src/lib/odd-occurrences-in-array/readme.md)** `Easy`
       _(Find value that occurs in odd number of elements)_
 
 ### Time Complexity
 
-- [x] **[FrogJmp](<(packages/codility/src/lib/frog-jump/readme.md)>)** `Easy`
+- [x] **[FrogJmp](packages/codility/src/lib/frog-jump/readme.md)** `Easy`
       _(Count minimal number of jumps from position X to Y)_
-- [x] **[PermMissingElem](<(packages/codility/src/lib/permutation-missing-element/readme.md)>)** `Easy`
+- [x] **[PermMissingElem](packages/codility/src/lib/permutation-missing-element/readme.md)** `Easy`
       _(Find the missing element in a given permutation)_
-- [x] **[TapeEquilibrium](<(packages/codility/src/lib/tape-equilibrium/readme.md)>)** `Easy`
+- [x] **[TapeEquilibrium](packages/codility/src/lib/tape-equilibrium/readme.md)** `Easy`
       _(Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|)_
 
 ### Counting Elements
@@ -155,6 +155,6 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ## External problems
 
-- [x] **MergeSort**
-- [x] **QuickSort**
-- [x] **BowlingGameScorer**
+- [x] **[MergeSort](packages/codility/src/lib/merge-sort/index.ts)**
+- [x] **[QuickSort](packages/codility/src/lib/quick-sort/index.ts)**
+- [x] **[BowlingGameScorer](packages/codility/src/lib/bowling-game-scorer/readme.md)**
