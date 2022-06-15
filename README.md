@@ -15,25 +15,25 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 2. Arrays:
 
-- [x] **CyclicRotation** `Easy`
+- [x] **[CyclicRotation](<(packages/codility/src/lib/cyclic-rotation/readme.md)>)** `Easy`
       _(Rotate an array to the right by a given number of steps)_
-- [x] **OddOccurrencesInArray** `Easy`
+- [x] **[OddOccurrencesInArray](<(packages/codility/src/lib/odd-occurrences-in-array/readme.md)>)** `Easy`
       _(Find value that occurs in odd number of elements)_
 
 3. Time Complexity:
 
-- [x] **FrogJmp** `Easy`
+- [x] **[FrogJmp](<(packages/codility/src/lib/frog-jump/readme.md)>)** `Easy`
       _(Count minimal number of jumps from position X to Y)_
-- [x] **PermMissingElem** `Easy`
+- [x] **[PermMissingElem](<(packages/codility/src/lib/permutation-missing-element/readme.md)>)** `Easy`
       _(Find the missing element in a given permutation)_
-- [x] **TapeEquilibrium** `Easy`
+- [x] **[TapeEquilibrium](<(packages/codility/src/lib/tape-equilibrium/readme.md)>)** `Easy`
       _(Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|)_
 
 4. Counting Elements:
 
-- [x] **FrogRiverOne** `Easy`
+- [ ] **FrogRiverOne** `Easy`
       _(Find the earliest time when a frog can jump to the other side of a river)_
-- [x] **PermCheck** `Easy`
+- [ ] **PermCheck** `Easy`
       _(Check whether array A is a permutation)_
 - [ ] **MaxCounters** `Medium`
       _(Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum)_
