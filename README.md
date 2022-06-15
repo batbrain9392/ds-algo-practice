@@ -1,94 +1,161 @@
-
-
 # DsAlgoPractice
 
 This project was generated using [Nx](https://nx.dev).
+Run this project by running the tests:
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+`npx nx test codility --watch`
 
-🔎 **Smart, Fast and Extensible Build System**
+## Codility Solutions
 
-## Adding capabilities to your workspace
+Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.com/programmers/lessons/)
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+1. Iterations:
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+- [x] `Easy` <b>BinaryGap</b>
+      <small>(Find longest sequence of zeros in binary representation of an integer)</small>
 
-Below are our core plugins:
+2. Arrays:
 
-- [React](https://reactjs.org)
-  - `npm install --save-dev @nrwl/react`
-- Web (no framework frontends)
-  - `npm install --save-dev @nrwl/web`
-- [Angular](https://angular.io)
-  - `npm install --save-dev @nrwl/angular`
-- [Nest](https://nestjs.com)
-  - `npm install --save-dev @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `npm install --save-dev @nrwl/express`
-- [Node](https://nodejs.org)
-  - `npm install --save-dev @nrwl/node`
+- [x] `Easy` <b>CyclicRotation</b>
+      <small>(Rotate an array to the right by a given number of steps)</small>
+- [x] `Easy` <b>OddOccurrencesInArray</b>
+      <small>(Find value that occurs in odd number of elements)</small>
 
-There are also many [community plugins](https://nx.dev/community) you could add.
+3. Time Complexity:
 
-## Generate an application
+- [x] `Easy` <b>FrogJmp</b>
+      <small>(Count minimal number of jumps from position X to Y)</small>
+- [x] `Easy` <b>PermMissingElem</b>
+      <small>(Find the missing element in a given permutation)</small>
+- [x] `Easy` <b>TapeEquilibrium</b>
+      <small>(Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|)</small>
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
+4. Counting Elements:
 
-> You can use any of the plugins above to generate applications as well.
+- [x] `Easy` <b>FrogRiverOne</b>
+      <small>(Find the earliest time when a frog can jump to the other side of a river)</small>
+- [x] `Easy` <b>PermCheck</b>
+      <small>(Check whether array A is a permutation)</small>
+- [ ] `Medium` <b>MaxCounters</b>
+      <small>(Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum)</small>
+- [ ] `Medium` <b>MissingInteger</b>
+      <small>(Find the smallest positive integer that does not occur in a given sequence)</small>
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+5. Prefix Sums
 
-## Generate a library
+- [ ] `Easy` <b>PassingCars</b>
+      <small>(Count the number of passing cars on the road)</small>
+- [ ] `Medium` <b>CountDiv</b>
+      <small>(Compute number of integers divisible by k in range [a..b])</small>
+- [ ] `Medium` <b>GenomicRangeQuery</b>
+      <small>(Find the minimal nucleotide from a range of sequence DNA)</small>
+- [ ] `Medium` <b>MinAvgTwoSlice</b>
+      <small>(Find the minimal average of any slice containing at least two elements)</small>
 
-Run `nx g @nrwl/react:lib my-lib` to generate a library.
+6. Sorting
 
-> You can also use any of the plugins above to generate libraries as well.
+- [ ] `Easy` <b>Distinct</b>
+      <small>(Compute number of distinct values in an array)</small>
+- [ ] `Easy` <b>MaxProductOfThree</b>
+      <small>(Maximize A[P] _ A[Q] _ A[R] for any triplet (P, Q, R))</small>
+- [ ] `Easy` <b>Triangle</b>
+      <small>(Determine whether a triangle can be built from a given set of edges)</small>
+- [ ] `Medium` <b>NumberOfDiscIntersections</b>
+      <small>(Compute the number of intersections in a sequence of discs)</small>
 
-Libraries are shareable across libraries and applications. They can be imported from `@ds-algo-practice/mylib`.
+7. Stacks and Queues
 
-## Development server
+- [ ] `Easy` <b>Brackets</b>
+      <small>(Determine whether a given string of parentheses (multiple types) is properly nested)</small>
+- [ ] `Easy` <b>Fish</b>
+      <small>(N voracious fish are moving along a river. Calculate how many fish are alive)</small>
+- [ ] `Easy` <b>Nesting</b>
+      <small>(Determine whether a given string of parentheses (single type) is properly nested)</small>
+- [ ] `Easy` <b>StoneWall</b>
+      <small>(Cover "Manhattan skyline" using the minimum number of rectangles)</small>
 
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+8. Leader
 
-## Code scaffolding
+- [ ] `Easy` <b>Dominator</b>
+      <small>(Find an index of an array such that its value occurs at more than half of indices in the array)</small>
+- [ ] `Easy` <b>EquiLeader</b>
+      <small>(Find the index S such that the leaders of the sequences A[0], A[1], ..., A[S] and A[S + 1], A[S + 2], ..., A[N - 1] are the same)</small>
 
-Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
+9. Maximum slice problem
 
-## Build
+- [ ] `Easy` <b>MaxProfit</b>
+      <small>(Given a log of stock prices compute the maximum possible earning)</small>
+- [ ] `Easy` <b>MaxSliceSum</b>
+      <small>(Find a maximum sum of a compact subsequence of array elements)</small>
+- [ ] `Medium` <b>MaxDoubleSliceSum</b>
+      <small>(Find the maximal sum of any double slice)</small>
 
-Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+10. Prime and composite numbers
 
-## Running unit tests
+- [ ] `Easy` <b>CountFactors</b>
+      <small>(Count factors of given number n)</small>
+- [ ] `Easy` <b>MinPerimeterRectangle</b>
+      <small>(Find the minimal perimeter of any rectangle whose area equals N)</small>
+- [ ] `Medium` <b>Flags</b>
+      <small>(Find the maximum number of flags that can be set on mountain peaks)</small>
+- [ ] `Medium` <b>Peaks</b>
+      <small>(Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1])</small>
 
-Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+11. Sieve of Eratosthenes
 
-Run `nx affected:test` to execute the unit tests affected by a change.
+- [ ] `Medium` <b>CountNonDivisible</b>
+      <small>(Calculate the number of elements of an array that are not divisors of each element)</small>
+- [ ] `Medium` <b>CountSemiprimes</b>
+      <small>(Count the semiprime numbers in the given range [a..b])</small>
 
-## Running end-to-end tests
+12. Euclidean algorithm
 
-Run `nx e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+- [ ] `Easy` <b>ChocolatesByNumbers</b>
+      <small>(There are N chocolates in a circle. Count the number of chocolates you will eat)</small>
+- [ ] `Medium` <b>CommonPrimeDivisors</b>
+      <small>(Check whether two numbers have the same prime divisors)</small>
 
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+13. Fibonacci numbers
 
-## Understand your workspace
+- [ ] `Medium` <b>FibFrog</b>
+      <small>(Count the minimum number of jumps required for a frog to get to the other side of a river)</small>
+- [ ] `Medium` <b>Ladder</b>
+      <small>(Count the number of different ways of climbing to the top of a ladder)</small>
 
-Run `nx graph` to see a diagram of the dependencies of your projects.
+14. Binary search algorithm
 
-## Further help
+- [ ] `Medium` <b>MinMaxDivision</b>
+      <small>(Divide array A into K blocks and minimize the largest sum of any block)</small>
+- [ ] `Medium` <b>NailingPlanks</b>
+      <small>(Count the minimum number of nails that allow a series of planks to be nailed)</small>
 
-Visit the [Nx Documentation](https://nx.dev) to learn more.
+15. Caterpillar method
 
+- [ ] `Easy` <b>AbsDistinct</b>
+      <small>(Compute number of distinct absolute values of sorted array elements)</small>
+- [ ] `Easy` <b>CountDistinctSlices</b>
+      <small>(Count the number of distinct slices (containing only unique numbers))</small>
+- [ ] `Easy` <b>CountTriangles</b>
+      <small>(Count the number of triangles that can be built from a given set of edges)</small>
+- [ ] `Medium` <b>MinAbsSumOfTwo</b>
+      <small>(Find the minimal absolute value of a sum of two elements)</small>
 
+16. Greedy algorithms
 
-## ☁ Nx Cloud
+- [ ] `Easy` <b>MaxNonoverlappingSegments</b>
+      <small>(Find a maximal set of non-overlapping segments)</small>
+- [ ] `Easy` <b>TieRopes</b>
+      <small>(Tie adjacent ropes to achieve the maximum number of ropes of length >= K)</small>
 
-### Distributed Computation Caching & Distributed Task Execution
+17. Dynamic programming
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
+- [ ] `Medium` <b>NumberSolitaire</b>
+      <small>(In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6)</small>
+- [ ] `Hard` <b>MinAbsSum</b>
+      <small>(Given array of integers, find the lowest absolute sum of elements)</small>
 
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
+## External problems
 
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
+- [x] <b>MergeSort</b>
+- [x] <b>QuickSort</b>
+- [x] <b>BowlingGameScorer</b>
