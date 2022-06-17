@@ -31,7 +31,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ### Counting Elements
 
-- [ ] **FrogRiverOne** `Easy`
+- [x] **[FrogRiverOne](packages/codility/src/lib/frog-river-one)** `Easy`
       _(Find the earliest time when a frog can jump to the other side of a river)_
 - [ ] **PermCheck** `Easy`
       _(Check whether array A is a permutation)_
