@@ -1,5 +1,5 @@
 {
-  "root": "packages/codility",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/codility/src",
   "targets": {
     "build": {
@@ -23,7 +23,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/packages/codility"],
       "options": {
-        "jestConfig": "packages/codility/jest.config.js",
+        "jestConfig": "packages/codility/jest.config.ts",
         "passWithNoTests": true
       }
     }

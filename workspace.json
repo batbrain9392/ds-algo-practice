@@ -2,5 +2,6 @@
   "version": 2,
   "projects": {
     "codility": "packages/codility"
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }
