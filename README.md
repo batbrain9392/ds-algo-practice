@@ -33,7 +33,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 - [x] **[FrogRiverOne](packages/codility/src/lib/frog-river-one)** `Easy`
       _(Find the earliest time when a frog can jump to the other side of a river)_
-- [ ] **PermCheck** `Easy`
+- [ ] **[PermCheck](packages/codility/src/lib/perm-check)** `Easy`
       _(Check whether array A is a permutation)_
 - [ ] **MaxCounters** `Medium`
       _(Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum)_
