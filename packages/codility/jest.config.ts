@@ -1,3 +1,4 @@
+/* eslint-disable */
 const fs = require('fs');
 
 // Reading the SWC compilation config and remove the "exclude"
@@ -6,7 +7,7 @@ const { exclude: _, ...swcJestConfig } = JSON.parse(
   fs.readFileSync(`${__dirname}/.lib.swcrc`, 'utf-8')
 );
 
-module.exports = {
+export default {
   displayName: 'codility',
   preset: '../../jest.preset.js',
   transform: {
