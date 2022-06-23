@@ -42,7 +42,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ### Prefix Sums
 
-- [ ] **PassingCars** `Easy`
+- [x] **[PassingCars](packages/codility/src/lib/passing-cars)** `Easy`
       _(Count the number of passing cars on the road)_
 - [ ] **CountDiv** `Medium`
       _(Compute number of integers divisible by k in range [a..b])_
