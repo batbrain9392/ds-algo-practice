@@ -31,9 +31,9 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ### Counting Elements
 
-- [x] **[FrogRiverOne](packages/codility/src/lib/frog-river-one)** `Easy`
+- [x] **[FrogRiverOne](packages/codility/src/lib/frog-river-one/)** `Easy`
       _(Find the earliest time when a frog can jump to the other side of a river)_
-- [x] **[PermCheck](packages/codility/src/lib/perm-check)** `Easy`
+- [x] **[PermCheck](packages/codility/src/lib/perm-check/)** `Easy`
       _(Check whether array A is a permutation)_
 - [ ] **MaxCounters** `Medium`
       _(Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum)_
@@ -42,7 +42,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ### Prefix Sums
 
-- [x] **[PassingCars](packages/codility/src/lib/passing-cars)** `Easy`
+- [x] **[PassingCars](packages/codility/src/lib/passing-cars/)** `Easy`
       _(Count the number of passing cars on the road)_
 - [ ] **CountDiv** `Medium`
       _(Compute number of integers divisible by k in range [a..b])_
@@ -53,7 +53,7 @@ Lessons - [https://app.codility.com/programmers/lessons/](https://app.codility.c
 
 ### Sorting
 
-- [ ] **Distinct** `Easy`
+- [x] **[Distinct](packages/codility/src/lib/distinct/)** `Easy`
       _(Compute number of distinct values in an array)_
 - [ ] **MaxProductOfThree** `Easy`
       _(Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R))_

@@ -10,3 +10,4 @@ export * from './lib/tape-equilibrium';
 export * from './lib/frog-river-one';
 export * from './lib/perm-check';
 export * from './lib/passing-cars';
+export * from './lib/distinct';
